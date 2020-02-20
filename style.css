@@ -1,4 +1,9 @@
+h1 {
+    color: black;
+    background-color: palegreen;
+}
+
 body {
-    background-color: beige;
+    background-color: rgb(183, 144, 144);
     
 }
