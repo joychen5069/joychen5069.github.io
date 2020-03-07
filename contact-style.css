@@ -1,0 +1,33 @@
+/*background color, don't let it clash with header color*/
+body {
+    background-color: rgb(246, 241, 232);
+}
+
+/*nav bar*/
+.navbar,
+.navbar-brand {
+    background-color: #022a4d;
+
+}
+/*move card down so it isnt against the menu*/
+.card {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+/*change button color to match header/footer*/
+.btn-info {
+    background-color: #004179;
+    border-color: #004179;
+}
+
+/*keep footer on bottom of page*/
+.footer {
+    bottom: 0;
+    left: 0;
+    background-color: #022a4d;
+    color: white;
+    position: fixed;
+    width: 100%;
+}

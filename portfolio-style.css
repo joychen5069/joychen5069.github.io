@@ -1,0 +1,56 @@
+/*background color. make sure you can see header clearly*/
+body {
+    background-color: rgb(246, 241, 232);
+}
+
+/*nav bar*/
+.navbar,
+.navbar-brand {
+    background-color: #022a4d;
+}
+
+/*add space underneath card rows*/
+.card-deck {
+    padding-bottom: 20px;
+}
+
+/*add spacing for cards individually*/
+.card {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+
+}
+/*center text over image*/
+h5 {
+    text-align: center;
+}
+/*keep text from top of card*/
+p {
+    padding-top: 30px;
+}
+
+/*make sure footer stays on the bottom*/
+.footer {
+    bottom: 0;
+    left: 0;
+    background-color: #022a4d;
+    color: white;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+/*when the screen is smaller than 995px, make sure text is still legible*/
+@media screen and (max-width: 995px) {
+h5 {
+    font-size: small;
+    font-weight: bold;
+}
+p {
+    font-size: small;
+    margin-right: 10px;
+}
+
+}

@@ -1,0 +1,47 @@
+/*background color, don't let it clash with header color*/
+body {
+    background-color: rgb(246, 241, 232);
+}
+
+/*nav bar*/
+.navbar,
+.navbar-brand {
+    background-color: #022a4d;
+    font-size: x-large;
+}
+
+
+ /*thumbnail spacing*/
+.col-md-3 {
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+/*Center About Me over thumbnail*/
+h4 {
+   text-align: center;
+}
+
+/*put text next to thumbnail*/
+.about-me {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/*Keep card body off top of card*/
+.card {
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+/*keep footer on bottom of page*/
+.footer {
+    bottom: 0;
+    left: 0;
+    background-color: #022a4d;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
